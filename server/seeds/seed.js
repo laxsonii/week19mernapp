@@ -1,5 +1,5 @@
 const db = require('../config/connection');
-const { Item } = require('../models/Item');
+const { Item } = require('../models');
 const cleanDB = require('./cleanDB');
 
 const itemData = require('./itemData.json');
