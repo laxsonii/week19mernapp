@@ -19,7 +19,7 @@
     in terminal: git init
     in browser: create new repo without a Readme
         and follow GitHub instructions
-    in vscode or terminal: add, commit and push code
+    in vscode or terminal: add, commit and push code DONE
 6.Create models 
     add Item model
         name
