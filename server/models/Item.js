@@ -7,7 +7,7 @@ const itemSchema = new Schema(
       required: true,
       trim: true // takes off extra characters
     },
-    image: {
+    img: {
       type: String,
     },
     cost: {

@@ -2,7 +2,7 @@ const typeDefs = `
   type Item {
     _id: ID
     name: String
-    image: String
+    img: String
     cost: Int
     calories: Int
   }
