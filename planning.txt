@@ -35,3 +35,25 @@
     add to scripts section of package.json, seed script
 9. Test items endpoint in apollo sandbox
        
+
+
+
+
+
+*FrontEnd*
+
+(Backend + FrontEnd => /mern-app)
+1. Create our package.json 
+    - install concurrently,
+    - add scripts 
+2. create .gitignore, add node_modules
+
+
+Specific to FrontEnd (client):
+1. create client folder using vite create command inside the mern-app folder 
+2. install dependencies - @apollo/client
+3. set up what is needed to consume the Backend
+    a. add proxy to vite.config.js
+    b. create landing page, consume the Backend data (ex, 11, Home(pages))
+    c. Create utils folder and add queries.js
+4. Use ant design components for each item 
