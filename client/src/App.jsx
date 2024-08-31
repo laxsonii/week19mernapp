@@ -1,12 +1,15 @@
 
+import { ApolloProvider } from '@apollo/client'
 import MenuList from './components/MenuList'
 
 function App() {
 
   return (
+    <ApolloProvider client={client}>
     <div>
       <MenuList />
     </div>
+    </ApolloProvider>
   )
 }
 
